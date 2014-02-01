@@ -42,9 +42,8 @@
       favorModuleManager.buildScriptObj();
       favorModuleManager.addScriptsToPage();
       var angularModules = favorModuleManager.angularDependencies();
-      var app = angular.module('favorIde',angularModules);
-      var gui = require('nw.gui');
-      var fs = require('fs');
+      var app = angular.module('Favor.ModuleTemplate',angularModules);
+     
 
 
         
